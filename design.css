@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 12vh;
+    width: 100vw;
+    border: 0.5px solid #d1d7dc;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%)
+}
+
+.navtitle {
+    display: flex;
+}
+
+.navtitle h2{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: #0099ff;
+}
+
+.navtitle .signcont{
+    height: 8vh;
+    width: 15vw;
+    /* border: 2px solid black; */
+    margin-left: 73%;
+    margin-top: 1rem;
+    display: flex;
+}
+
+.navtitle .signcont .signup{
+    height: 5vh;
+    width: 5vw;
+    border: 1px solid black;
+    margin-top: 0.7rem;
+    margin-left: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px #4d4949;
+}
+
+/* .navtitle .signcont :hover{
+    background-color: #f3eded;
+} */
+
+.navtitle .signcont  .signup p{
+    margin-top: 7px;
+    margin-left: 8px;
+
+}
+
+.navtitle .signcont .signup p a{
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+/* fuu */
+
+
+.navtitle .signcont .login{
+    height: 5vh;
+    width: 5vw;
+    border: 1px solid black;
+    margin-top: 0.7rem;
+    margin-left: 10px;
+    background-color: #000;
+    cursor: pointer;
+    box-shadow: 3px 3px #4d4949;
+}
+
+
+.navtitle .signcont .login p{
+    margin-top: 7px;
+    margin-left: 8px;
+
+
+}
+
+.navtitle .signcont .login p a{
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+
+.maincont{
+    height: 55vh;
+    width: 25vw;
+    /* border: 2px solid black; */
+    margin-top: 5rem;
+    margin-left: 35%;
+}
+
+.maincont h3{
+    margin: 9px;
+    margin-left: 2.7rem;
+}
+
+hr{
+    width: 76%;
+    margin-left: 2.5rem;
+}
+
+.block .fb{
+    height: 6vh;
+    width: 18vw;
+    border: 1px solid black;   
+    margin: 1rem;
+    background-color: #1d558d;
+    margin-left: 2.7rem;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%)
+}
+
+
+.fb i{
+    color: #fff;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    font-size: 162%;
+    cursor: pointer;
+    
+}
+
+.fb p{
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fb p a{
+    color: white;
+    text-decoration: none;
+}
+
+/* google */
+
+.block .google{
+    height: 6vh;
+    width: 18vw;
+    border: 1px solid #d1d7dc;   
+    margin: 1rem;
+    background-color: #f7f9fa;
+    margin-left: 2.7rem;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%);
+    cursor: pointer;
+    
+}
+
+.block .google:hover {
+    background-color: #fff;
+}
+
+.google img{
+    height: 25px;
+    width: 25px;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    
+}
+
+.google p{
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.google p a{
+    color: #000;
+    text-decoration: none;
+}
+
+.google p :hover{
+    color: #0099ff;
+}
+
+/* email */
+
+.block .email{
+    height: 6vh;
+    width: 18vw;
+    border: 1px solid #d1d7dc;   
+    margin: 1rem;
+    background-color: #f7f9fa;
+    margin-left: 2.7rem;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%)
+}
+
+.email input{
+    width: 18VW;
+    border: 1px solid #d1d7dc; 
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 18px; 
+    
+}
+
+/* password */
+
+.block .pass{
+    height: 6vh;
+    width: 18vw;
+    border: 1px solid #d1d7dc;   
+    margin: 1rem;
+    background-color: #f7f9fa;
+    margin-left: 2.7rem;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%)
+}
+
+.pass input{
+    width: 18VW;
+    border: 1px solid #d1d7dc; 
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 18px; 
+    
+}
+
+.logIn{
+    height: 6vh;
+    width: 18vw;
+    margin: 1rem;
+    margin-left: 2.7rem;
+    display: flex;
+    box-shadow: 0 2px 2px 0 rgb(28 29 31 / 24%), 0 0 2px 0 rgb(28 29 31 / 12%)
+}
+
+.logIn input{
+    width: 18vw;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0099ff;
+    color: #fff;
+    cursor: pointer;
+    border: 0.5px solid #0099ff;
+}
+
+.logIn :hover{
+    background-color: #36abf8;
+}
+
+.forget{
+    margin-left: 7rem;
+}
+
+.forget a{
+    text-decoration: none;
+    color: #0099ff;
+}
